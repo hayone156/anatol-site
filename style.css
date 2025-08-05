@@ -1,4 +1,3 @@
-
 body {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
@@ -11,19 +10,23 @@ body {
   color: #333;
 }
 
+/* Logo üstte ortalanır, menü sağ üstte kutu içinde */
 header {
   background-color: transparent;
-  padding: 20px 20px 0 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   position: relative;
+  padding-top: 20px;
+  text-align: center;
 }
+
+/* Logo tam ortalanır */
 .logo {
   max-width: 140px;
   height: auto;
-  margin-bottom: 10px;
+  display: block;
+  margin: 0 auto 10px auto;
 }
+
+/* Menü sağ üstte, yarı şeffaf kutuda */
 nav {
   position: absolute;
   top: 20px;
@@ -31,6 +34,9 @@ nav {
   background-color: rgba(255, 255, 255, 0.65);
   padding: 10px 20px;
   border-radius: 8px;
+  z-index: 10;
+}
+
 nav ul {
   list-style: none;
   display: flex;
@@ -43,7 +49,6 @@ nav ul li {
   display: inline;
 }
 
-
 nav ul li a {
   text-decoration: none;
   color: #1c2b22;
@@ -55,6 +60,7 @@ nav ul li a:hover {
   color: #888;
 }
 
+/* İçerik kutusu ortada ve okunabilir */
 main {
   max-width: 900px;
   margin: 60px auto;
@@ -64,6 +70,7 @@ main {
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
+/* Footer alt kısımda sade */
 footer {
   background-color: #e0e0e0;
   text-align: center;
