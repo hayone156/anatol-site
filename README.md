@@ -1,0 +1,2 @@
+CNAME
+www.anatoleatery.com
