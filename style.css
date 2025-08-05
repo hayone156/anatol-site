@@ -9,7 +9,11 @@ body {
   background-attachment: fixed;
   color: #333;
 }
-
+header {
+  background-color: transparent;
+  position: relative;
+  padding-top: 20px;
+}
 header {
   display: flex;
   flex-direction: column;
