@@ -20,10 +20,10 @@ header {
 
 /* Logo tam ortalanır */
 .logo {
-  max-width: 140px;
+  max-width: 220px;
   height: auto;
   display: block;
-  margin: 0 auto 10px auto;
+  margin: 0 auto 20px auto;
 }
 
 /* Menü sağ üstte, yarı şeffaf kutuda */
