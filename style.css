@@ -18,8 +18,9 @@ header {
 }
 
 .logo {
-  max-width: 100px;
-  background-color: transparent; /* GEREKİRSE */
+  max-width: 160px; /* büyüklük */
+  height: auto;
+  margin-bottom: 10px;
 }
 
 section {
