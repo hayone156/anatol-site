@@ -1,0 +1,31 @@
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f6f2;
+  color: #333;
+}
+
+header {
+  background-color: #c7d8b6;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  max-width: 100px;
+}
+
+section {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+footer {
+  background-color: #e0e0e0;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
