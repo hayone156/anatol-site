@@ -13,13 +13,16 @@ header {
   background-color: transparent;
   position: relative;
   padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* LOGO ORTALAR */
 }
 
+
 .logo {
-  display: block;
-  margin: 0 auto 10px auto;
   max-width: 140px;
   height: auto;
+  margin-bottom: 10px;
 }
 
 
