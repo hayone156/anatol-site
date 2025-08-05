@@ -1,40 +1,29 @@
-body {
-  font-family: 'Montserrat', sans-serif;
-  margin: 0;
-  padding: 0;
-  background-image: url("background.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  color: #333;
-}
 header {
   background-color: transparent;
-  position: relative;
-  padding-top: 20px;
   display: flex;
   flex-direction: column;
-  align-items: center; /* LOGO ORTALAR */
+  align-items: center;
+  margin-top: 20px;
 }
 
-
+/* LOGO ORTADA + ARKASINDA BEYAZ TRANSPARAN KUTU */
+.logo-wrapper {
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 10px 20px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
 .logo {
   max-width: 140px;
   height: auto;
-  margin-bottom: 10px;
-  align-items: center;
 }
 
-
+/* MENÜ BAŞLIKLARI LOGONUN ALTINDA */
 nav {
-  background-color: rgba(255, 255, 255, 0.65);
-  padding: 10px 20px;
-  border-radius: 8px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  margin: 10px 20px;
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 10px 30px;
+  border-radius: 12px;
+  margin-top: 10px;
 }
 
 nav ul {
@@ -54,24 +43,4 @@ nav ul li a {
 
 nav ul li a:hover {
   color: #888;
-}
-
-
-/* İçerik kutusu ortada ve okunabilir */
-main {
-  max-width: 900px;
-  margin: 60px auto;
-  padding: 30px;
-  background-color: rgba(255, 255, 255, 0.85);
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-/* Footer alt kısımda sade */
-footer {
-  background-color: #e0e0e0;
-  text-align: center;
-  padding: 15px;
-  font-size: 14px;
-  margin-top: 40px;
 }
