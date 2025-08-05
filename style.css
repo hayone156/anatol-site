@@ -10,28 +10,35 @@ body {
   color: #333;
 }
 
-header {
-  background-color: transparent;
+/* LOGO + NAV container */
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
   position: relative;
   padding-top: 20px;
+  flex-direction: column;
 }
 
+/* LOGO tam ortalanır */
 .logo {
   display: block;
   margin: 0 auto 10px auto;
   max-width: 140px;
   height: auto;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-/* Menü sağ üstte, yarı şeffaf kutuda */
+/* NAV sağ üst köşede kutu içinde */
 nav {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 0;
+  right: 0;
   background-color: rgba(255, 255, 255, 0.65);
   padding: 10px 20px;
   border-radius: 8px;
-  z-index: 10;
 }
 
 nav ul {
@@ -42,19 +49,10 @@ nav ul {
   padding: 0;
 }
 
-nav ul li {
-  display: inline;
-}
-
 nav ul li a {
   text-decoration: none;
   color: #1c2b22;
   font-weight: bold;
-  transition: color 0.3s ease;
-}
-
-nav ul li a:hover {
-  color: #888;
 }
 
 /* İçerik kutusu ortada ve okunabilir */
